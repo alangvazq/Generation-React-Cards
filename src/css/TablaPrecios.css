@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+
+.columns{
+    float: left;
+
+    padding: 8px;
+}
+
+.price{
+    border: 1px solid #EEE;
+    margin: 0;
+    padding: 0;
+    transition: 0.4s;
+}
+
+.price:hover{
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.3);
+}
+
+.price .header{
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+}
+
+.price li{
+    border-bottom: 1px solid #EEE;
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+.price .grey{
+    background-color: #EEE;
+    font-size: 20px;
+}
+
+.boton{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}

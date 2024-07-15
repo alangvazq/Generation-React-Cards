@@ -1,0 +1,29 @@
+.inc {
+    background-color: DodgerBlue;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.inc:hover {
+    background-color: rgb(36, 114, 192);
+}
+
+.clean {
+    display: block;
+    border-radius: 7px;
+    border: none;
+    background-color: #6cc183;
+    color: white;
+    padding: 12px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.clean:hover {
+    background-color: #5ca46f;
+}
